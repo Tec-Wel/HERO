@@ -141,9 +141,7 @@ def process_data():
 
         return resources_list
 
-@app.route('/', methods=['POST', 'GET'])
-def server_status():
-    return "Server is Running"
+
 
 
 
